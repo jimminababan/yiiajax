@@ -10,7 +10,7 @@ public function actionCreate()
 			$model->attributes=$_POST['FileType'];
 			if($model->save())
 			{
-				if(Yii::app()->request->isPostRequest)
+				if(Yii::app()->request->isAjaxRequest)
 				{
 					echo CJSON::encode(
 						array(
