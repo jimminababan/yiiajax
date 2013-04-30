@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-
+blablablablablabla blablablablablabla
 
 <?php echo CHtml::link('Create classroom', "",  // the link for open the dialog
     array(
